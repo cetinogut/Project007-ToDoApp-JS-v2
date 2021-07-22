@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cogut-JS-ToDoApp</title>
+     <!--Google Font-->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+     <!--Font Awesome CDN-->
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+     <!-- <link rel="stylesheet" href="./css/font-awesome.css"> -->
+     <!--Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="en">EN</span>
+            <input type="checkbox" name="" id="languageSelection" class="check">
+            <span class="tr">TR</span>
+
+            <div class="clearMem">
+                <i class="fas fa-sync-alt" title="clear all tasks"></i>
+            </div>
+            <div class="date english">
+                date
+            </div>
+            <div class="date turkish">
+                date
+            </div>
+        </div>
+        <div class="content">
+            <ul id="taskList">
+                <!-- <li class="task">
+                    <i class="far fa-circle "></i>
+                    <i class="far fa-check-circle taskComplete" job="complete" id="0"></i>
+                    <p class="text">Drink Cofee</p>
+                    <i class="far fa-trash-alt taskDelete"></i>
+                </li> -->
+            </ul>
+            
+            
+        </div>
+        <div class="add-task">
+            <input type="text" class="userInput" placeholder="Task to be done..">
+            <button id="push">Hit "Enter" key</button>
+        </div>
+        
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
