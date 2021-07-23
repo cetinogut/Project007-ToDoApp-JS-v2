@@ -145,9 +145,11 @@ checkbox.addEventListener( 'change', function() {
     if(this.checked) {
         console.log("TR placeholder")
         userInput.setAttribute("placeholder","görev ekleyebilirsiniz...")
+        enterKeyLabel.textContent = `"Enter"e basınız.`;
     } else {
         console.log("En placeholder")
         userInput.setAttribute("placeholder","task to be done...")
+        enterKeyLabel.textContent = `Hit "Enter" key.`;
     }
 });
 
