@@ -196,7 +196,7 @@ span{
     margin-top: 4px;
     border: none;
     color: #ffffff;
-    cursor: pointer;
+    /* cursor: pointer; */
     outline: none;
 }
 
